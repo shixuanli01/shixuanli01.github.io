@@ -12,7 +12,7 @@ I am **Shixuan Li (李诗轩)**, a 3rd-year Ph.D. student in **Computer Engineer
 
 ---
 
-**Links:** [LinkedIn](https://www.linkedin.com/in/shixuan-li-73219628a/) · [Google Scholar](https://scholar.google.com/citations?user=Z_xJjncAAAAJ&hl=en) · [GitHub](https://github.com/Shixuan01)
+**Links:** [LinkedIn](https://www.linkedin.com/in/shixuan-li-73219628a/) · [Google Scholar](https://scholar.google.com/citations?user=Z_xJjncAAAAJ&hl=en) · [GitHub](https://github.com/shixuanli01)
 
 ---
 
