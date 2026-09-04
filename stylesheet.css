@@ -210,34 +210,36 @@ span.highlight {
   max-height: 140px !important;
 }
 
-/* Stack the profile section on narrow screens while preserving the desktop layout. */
+/* Keep the profile side by side on phones without relying on percentage heights. */
 @media (max-width: 700px) {
-  .page-layout {
+  .profile-layout {
     table-layout: fixed;
     width: 100% !important;
-    max-width: 100% !important;
   }
 
-  .profile-layout,
-  .profile-layout > tbody,
-  .profile-row {
-    display: block;
-    width: 100%;
-  }
-
-  .profile-intro,
-  .profile-photo-cell {
-    display: block;
+  .profile-intro {
     box-sizing: border-box;
-    width: 100% !important;
-    max-width: none !important;
+    width: 65% !important;
+    max-width: 65% !important;
+    overflow-wrap: break-word;
+  }
+
+  .profile-photo-cell {
+    box-sizing: border-box;
+    width: 35% !important;
+    max-width: 35% !important;
+  }
+
+  .profile-intro .name {
+    padding-top: 10px;
+    font-size: 28px;
   }
 
   .profile-photo-link {
-    width: 180px !important;
-    height: 180px !important;
-    max-width: 60vw;
-    max-height: 60vw;
+    width: 28vw !important;
+    height: 28vw !important;
+    max-width: 150px;
+    max-height: 150px;
     margin: 0 auto;
     aspect-ratio: auto !important;
   }
@@ -245,5 +247,14 @@ span.highlight {
   .profile-photo {
     width: 100% !important;
     height: 100% !important;
+  }
+
+  .clustrmaps-box {
+    display: block;
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    min-height: 140px;
+    overflow: visible;
   }
 }
